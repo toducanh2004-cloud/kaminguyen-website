@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kaminguyen — freelance illustrator, character designer and visual storyteller."
+    />
+    <meta name="theme-color" content="#0b0b11" />
+    <meta property="og:title" content="Kaminguyen — Illustrator" />
+    <meta
+      property="og:description"
+      content="Illustration, character design, comics and visual development."
+    />
+    <meta property="og:image" content="assets/art/art-01.webp" />
+    <title>Kaminguyen — Illustrator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kaminguyen home">
+        <span class="brand-mark">K</span>
+        <span>KAMINGUYEN</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#work">Work</a>
+        <a href="#events">Events</a>
+        <a href="#commission">Commission</a>
+        <a href="#terms">Terms</a>
+      </nav>
+
+      <a class="header-status" href="#commission">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span data-field="availabilityShort">Open in August</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open navigation"
+      >
+        <span class="menu-button-label">Menu</span>
+        <span class="menu-button-icon" aria-hidden="true">
+          <i></i><i></i>
+        </span>
+      </button>
+
+      <div class="menu-scrim" aria-hidden="true"></div>
+
+      <nav
+        id="mobile-menu"
+        class="mobile-menu"
+        aria-label="Mobile navigation"
+        aria-hidden="true"
+        inert
+      >
+        <div class="mobile-menu-heading">
+          <span>Explore Kaminguyen</span>
+          <span>Portfolio · 2026</span>
+        </div>
+        <div class="mobile-menu-links">
+          <a href="#profile"><span>01</span><strong>Profile</strong><i>↘</i></a>
+          <a href="#work"><span>02</span><strong>Work</strong><i>↘</i></a>
+          <a href="#events"><span>03</span><strong>Events</strong><i>↘</i></a>
+          <a href="#commission"><span>04</span><strong>Commission</strong><i>↘</i></a>
+          <a href="#terms"><span>05</span><strong>Terms</strong><i>↘</i></a>
+          <a href="#contact"><span>06</span><strong>Contact</strong><i>↘</i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Freelance illustrator · Visual storyteller</p>
+          <h1>
+            Worlds in<br />
+            <em>ink &amp; light.</em>
+          </h1>
+          <p class="hero-intro" data-field="intro">
+            Character-led illustrations, expressive designs, and narrative art
+            shaped with atmosphere and feeling.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">
+              Explore the work <span aria-hidden="true">↘</span>
+            </a>
+            <a class="text-link" href="#commission">Commission info</a>
+          </div>
+        </div>
+
+        <figure class="hero-art reveal">
+          <img
+            src="assets/art/art-01.webp"
+            alt="Warmly lit illustration of two characters by Kaminguyen"
+            width="1651"
+            height="2561"
+            fetchpriority="high"
+          />
+          <figcaption>
+            <span>Featured illustration</span>
+            <span>01 / 25</span>
+          </figcaption>
+        </figure>
+
+        <div class="hero-index reveal" aria-hidden="true">
+          <span>PORTFOLIO</span>
+          <span>MMXXVI</span>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>ILLUSTRATION</span><i>✦</i><span>CHARACTER DESIGN</span><i>✦</i>
+          <span>COMICS</span><i>✦</i><span>CONCEPT ART</span><i>✦</i>
+          <span>ILLUSTRATION</span><i>✦</i><span>CHARACTER DESIGN</span><i>✦</i>
+          <span>COMICS</span><i>✦</i><span>CONCEPT ART</span><i>✦</i>
+        </div>
+      </div>
+
+      <section id="profile" class="section profile">
+        <div class="profile-visual reveal">
+          <img
+            src="assets/profile/artist-avatar.webp"
+            alt="Portrait of Kaminguyen"
+            width="1200"
+            height="1799"
+            loading="lazy"
+          />
+          <span class="profile-stamp">KAMI<br />NGUYEN</span>
+        </div>
+
+        <div class="profile-copy reveal">
+          <p class="section-kicker">01 / The artist</p>
+          <h2>Hi, I’m <em>Kami.</em></h2>
+          <p class="profile-lead" data-field="bio">
+            I’m a freelance illustrator who loves expressive faces, cinematic
+            light, and characters who feel alive before they say a word.
+          </p>
+
+          <dl class="profile-facts">
+            <div>
+              <dt>Based in</dt>
+              <dd data-field="basedIn">Vietnam</dd>
+            </div>
+            <div>
+              <dt>Languages</dt>
+              <dd data-field="languages">VIE · ENG</dd>
+            </div>
+            <div>
+              <dt>Experience</dt>
+              <dd data-field="experience">Freelance illustrator</dd>
+            </div>
+          </dl>
+
+          <div class="tool-columns">
+            <div>
+              <h3>Software</h3>
+              <ul id="software-list"></ul>
+            </div>
+            <div>
+              <h3>Technical skills</h3>
+              <ul id="skills-list"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section selected-work">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-kicker">02 / Selected work</p>
+            <h2>Images that <em>hold a story.</em></h2>
+          </div>
+          <p>
+            A selection of polished illustration, narrative frames, and
+            character-focused work.
+          </p>
+        </header>
+
+        <div class="feature-grid">
+          <button class="feature feature-tall reveal" data-open-art="21">
+            <img
+              src="assets/art/art-21.webp"
+              alt="Blue underwater fantasy illustration"
+              width="2003"
+              height="2560"
+            />
+            <span class="feature-meta">
+              <span><b>Blue Reverie</b><small>Fantasy illustration</small></span>
+              <span>View ↗</span>
+            </span>
+          </button>
+
+          <div class="feature-stack">
+            <button class="feature feature-wide reveal" data-open-art="10">
+              <img
+                src="assets/art/art-10.webp"
+                alt="Narrative scene of five characters inside a car"
+                width="1280"
+                height="716"
+              />
+              <span class="feature-meta">
+                <span><b>The Night Drive</b><small>Narrative art</small></span>
+                <span>View ↗</span>
+              </span>
+            </button>
+
+            <button class="feature feature-wide reveal" data-open-art="23">
+              <img
+                src="assets/art/art-23.webp"
+                alt="Neon-lit character illustration"
+                width="2560"
+                height="2275"
+              />
+              <span class="feature-meta">
+                <span><b>Midnight Passenger</b><small>Character illustration</small></span>
+                <span>View ↗</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section disciplines" aria-labelledby="disciplines-title">
+        <header class="section-heading compact reveal">
+          <div>
+            <p class="section-kicker">Practice</p>
+            <h2 id="disciplines-title">Three ways of <em>world-building.</em></h2>
+          </div>
+        </header>
+        <div class="discipline-grid" id="discipline-grid"></div>
+      </section>
+
+      <section class="section archive" aria-labelledby="archive-title">
+        <header class="archive-heading reveal">
+          <div>
+            <p class="section-kicker">Full archive</p>
+            <h2 id="archive-title">The work, <em>uncropped.</em></h2>
+          </div>
+          <div class="filter-group" role="group" aria-label="Filter artwork">
+            <button class="is-active" type="button" data-filter="all">All</button>
+            <button type="button" data-filter="illustration">Illustration</button>
+            <button type="button" data-filter="comics">Comics</button>
+            <button type="button" data-filter="design">Character design</button>
+          </div>
+        </header>
+        <div id="gallery" class="gallery" aria-live="polite"></div>
+      </section>
+
+      <section id="events" class="section events" aria-labelledby="events-title">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-kicker">03 / Drawing events</p>
+            <h2 id="events-title">Community, prompts<br />&amp; <em>shared moments.</em></h2>
+          </div>
+          <p>
+            Event artwork, drawing challenges, collaborations, and future
+            meet-up photos are collected here.
+          </p>
+        </header>
+        <div id="events-list" class="events-list"></div>
+      </section>
+
+      <section id="commission" class="section commission">
+        <header class="commission-heading reveal">
+          <div>
+            <p class="section-kicker light">04 / Commission</p>
+            <h2>Let’s make something<br /><em>only you could imagine.</em></h2>
+          </div>
+          <div class="availability-card">
+            <span class="status-dot" aria-hidden="true"></span>
+            <div>
+              <small>Current status</small>
+              <strong data-field="availability">Opening in August</strong>
+              <span data-field="slots">Slots: 2 / 2</span>
+            </div>
+          </div>
+        </header>
+
+        <div class="price-panel reveal">
+          <div class="price-panel-top">
+            <div class="style-tabs" role="tablist" aria-label="Commission style">
+              <button
+                type="button"
+                role="tab"
+                aria-selected="true"
+                data-price-style="standard"
+              >
+                Standard
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected="false"
+                data-price-style="cartoon"
+              >
+                Cartoon
+              </button>
+            </div>
+            <p>Starting prices · USD / VND</p>
+          </div>
+          <div id="price-list" class="price-list"></div>
+          <div class="addons">
+            <h3>Add-ons</h3>
+            <ul id="addons-list"></ul>
+          </div>
+          <p class="price-note" data-field="priceNote"></p>
+        </div>
+
+        <div class="payment-panel reveal">
+          <div class="payment-copy">
+            <p class="section-kicker light" data-payment="label">International payment</p>
+            <h3>
+              Pay securely<br />with <em data-payment="method">PayPal.</em>
+            </h3>
+            <p data-payment="note">
+              Scan the QR code in the PayPal app after your final quote has
+              been confirmed.
+            </p>
+            <dl>
+              <div>
+                <dt>Account holder</dt>
+                <dd data-payment="holder">Đức Anh Tô</dd>
+              </div>
+              <div>
+                <dt>For</dt>
+                <dd data-payment="for">International commissions</dd>
+              </div>
+            </dl>
+          </div>
+          <figure class="payment-qr">
+            <img
+              src="assets/payment/paypal-qr.webp"
+              alt="PayPal payment QR code for Đức Anh Tô"
+              width="860"
+              height="1154"
+              loading="lazy"
+            />
+            <figcaption>Scan with PayPal</figcaption>
+          </figure>
+        </div>
+
+        <div class="process reveal">
+          <div>
+            <p class="section-kicker light">The process</p>
+            <h3>Clear steps.<br />No guessing.</h3>
+          </div>
+          <ol id="process-list"></ol>
+        </div>
+      </section>
+
+      <section id="terms" class="section terms">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-kicker">05 / Terms of service</p>
+            <h2>Good work starts with<br /><em>clear expectations.</em></h2>
+          </div>
+          <p>
+            Please read these terms before placing an order. Commissioning the
+            artist means you agree to them.
+          </p>
+        </header>
+        <div id="terms-list" class="terms-list reveal"></div>
+      </section>
+
+      <section id="contact" class="contact">
+        <img
+          class="contact-backdrop"
+          src="assets/art/art-24.webp"
+          alt=""
+          width="2560"
+          height="2000"
+          loading="lazy"
+        />
+        <div class="contact-overlay"></div>
+        <div class="contact-copy reveal">
+          <p class="section-kicker light">Available for selected projects</p>
+          <h2>Have a character<br />waiting to <em>exist?</em></h2>
+          <p>
+            Send your references, scope, and ideal deadline. I’ll reply with
+            availability and a quote.
+          </p>
+          <a
+            class="button button-light"
+            data-contact="email"
+            href="mailto:nguyenngoctram15082008@gmail.com"
+          >
+            Start a conversation <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div id="social-links" class="social-links reveal"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top">
+        <span class="brand-mark">K</span>
+        <span>KAMINGUYEN</span>
+      </a>
+      <p>Illustration · Character design · Comics</p>
+      <p>© <span id="year"></span> Kaminguyen</p>
+    </footer>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Artwork viewer">
+      <button class="lightbox-close" type="button" aria-label="Close artwork">×</button>
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous artwork">←</button>
+      <figure>
+        <img id="lightbox-image" src="" alt="" />
+        <figcaption>
+          <span>
+            <strong id="lightbox-title"></strong>
+            <small id="lightbox-category"></small>
+          </span>
+          <span id="lightbox-counter"></span>
+        </figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Next artwork">→</button>
+    </dialog>
+
+    <noscript>
+      <p class="noscript">Please enable JavaScript to view the complete gallery.</p>
+    </noscript>
+  </body>
+</html>
