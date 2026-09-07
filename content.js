@@ -386,6 +386,16 @@ window.SITE_CONTENT = {
       width: 2000,
       height: 1580,
     },
+    {
+      sourceIndex: 35,
+      title: "swimming pool in the middle of the sea",
+      category: "illustration",
+      year: "2026",
+      file: "assets/art/art-35.jpg",
+      thumb: "assets/art/thumbs/art-35.jpg",
+      width: 2560,
+      height: 2096,
+    },
   ],
 
   pricing: {
