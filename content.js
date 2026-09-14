@@ -387,7 +387,7 @@ window.SITE_CONTENT = {
       height: 1580,
     },
     {
-      sourceIndex: 35,
+      sourceIndex: 0,
       title: "swimming pool in the middle of the sea",
       category: "illustration",
       year: "2026",
